@@ -38,7 +38,7 @@ public class StudentDAO {
 			Student s = session.find(Student.class, id);
 			System.out.println(s);
 		} catch(Exception e) {
-			System.out.println(e.getMessage());
+			System.out.println(e.getMessage()); 
 		}
 	}
 	

@@ -18,7 +18,7 @@ public class StudentDAO {
 			System.out.println("Student Added");
 			tx.commit();
 		} catch(Exception e) {
-			System.out.println(e.getMessage());
+			System.out.println(e.getMessage()); 
 		}
 	}
 	
